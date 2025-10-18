@@ -12,6 +12,40 @@
     background-image:url(img/trex.png) ;
     background-size:50px ;
     position: relative;
-    top:150px
+    top:150px;
+
+    animation: jump 1s linear;
+}
+
+
+@keyframes jump{
+    0%{
+        top:150px;
+    }
+    30%{
+        top:130px;
+    }
+    50%{
+          top:80px;
+    }
+    80%{
+        top:130px
+    }
+
+    100%{
+        top:150px
+    }
+}
+
+
+
+#cactus{
+    width: 20px;
+    height: 40px; 
+    position: relative;
+    background-size: 20px 40px;
+    top:110px;
+    left:580px;
+    background-image:url(img/cactus.png) ;
 }
 
