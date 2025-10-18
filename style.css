@@ -18,7 +18,7 @@
 }
 
 .jump{
-    animation: jump 1s linear;
+    animation: jump 0.7s linear;
 }
 
 
@@ -31,6 +31,14 @@
     }
     50%{
           top:80px;
+    }
+
+    60%{
+        top:90px
+    }
+
+    70%{
+        top:100px ;
     }
     80%{
         top:130px
