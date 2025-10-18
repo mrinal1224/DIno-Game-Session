@@ -14,6 +14,10 @@
     position: relative;
     top:150px;
 
+    
+}
+
+.jump{
     animation: jump 1s linear;
 }
 
@@ -61,3 +65,10 @@
     }
 }
 
+.red{
+    color : red
+}
+
+.yellow{
+    color: yellow;
+}
