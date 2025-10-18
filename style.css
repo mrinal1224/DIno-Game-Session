@@ -60,7 +60,7 @@
     left:580px;
     background-image:url(img/cactus.png) ;
 
-    animation : towards 1s infinite linear
+    animation : towards 2s infinite linear
 }
 
 @keyframes towards{
